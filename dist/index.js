@@ -1,7 +1,7 @@
 // import BlockChain from "./lib/rpc-client/blockchain.js"
 // import Transaction from "./lib/rpc-client/transaction.js"
 export { ClientError } from "./error.js";
-export { Address, BlockChain, Transaction, makeRequest, rpcConfig, } from "./lib/index.js";
+export { Address, BlockChain, Transaction, makeRequest, rpcConfig, RpcConfig, } from "./lib/index.js";
 export { Block, BlockCount, BlockHash, DecodedTransaction, RawTransaction } from "./model/index.js";
 // async function main() {
 //     const blockCount = await BlockChain.getBlockCount()

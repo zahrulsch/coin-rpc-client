@@ -1,7 +1,7 @@
 import axios from "axios"
 import { ZodObject, ZodRawShape, z } from "zod"
 import { ClientError } from "../error.js"
-import RpcConfig from "./rpc-config.js"
+import { RpcConfig } from "./rpc-config.js"
 
 const rpcCfg: RpcConfig = RpcConfig.default()
 

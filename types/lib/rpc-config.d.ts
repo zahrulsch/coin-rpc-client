@@ -5,7 +5,7 @@ export declare const rpcConfig: {
     password: string;
 };
 export type RpcConfigFields = typeof rpcConfig;
-export default class RpcConfig {
+export declare class RpcConfig {
     private host;
     private port;
     private username;

@@ -1,6 +1,6 @@
 import axios from "axios";
 import { ClientError } from "../error.js";
-import RpcConfig from "./rpc-config.js";
+import { RpcConfig } from "./rpc-config.js";
 const rpcCfg = RpcConfig.default();
 const client = axios.create({
     method: "POST",

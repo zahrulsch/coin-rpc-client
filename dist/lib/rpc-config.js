@@ -4,7 +4,7 @@ export const rpcConfig = {
     username: "root",
     password: "dLvbVodQ4YARaOeaB0kn4sriMXS4c1fEGgpX",
 };
-export default class RpcConfig {
+export class RpcConfig {
     host;
     port;
     username;

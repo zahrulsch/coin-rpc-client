@@ -7,7 +7,7 @@ export const rpcConfig = {
 
 export type RpcConfigFields = typeof rpcConfig
 
-export default class RpcConfig {
+export class RpcConfig {
     private host: string
     private port: number
     private username: string

@@ -1,4 +1,4 @@
-export { RpcConfigFields, rpcConfig } from "./rpc-config.js"
+export { RpcConfigFields, rpcConfig, RpcConfig } from "./rpc-config.js"
 export { makeRequest } from "./make-request.js"
 
 import * as Address from "./rpc-client/address.js"
